@@ -778,7 +778,7 @@ if option_tomenu == 'Summary-New':
             value_counts = data[selected_column].value_counts()
             # Display the total counts (though for a single column it's just the same as value_counts)
         col1, col2, col3 = st.columns(3)
-        
+
         with col1:
             understroy = card(
                 title='Understroy',
@@ -801,7 +801,7 @@ if option_tomenu == 'Summary-New':
         with col2:
             canopy = card(
                 title=f'Canopy',
-                text=f'{value_counts['Canopy']}',
+                text=f"{value_counts['Canopy']}",
                 styles={
                     "card": {
                         "width": "400px",
@@ -818,8 +818,8 @@ if option_tomenu == 'Summary-New':
             )
         with col3:
             emergent = card(
-                title=f'Emergent',
-                text=f'{value_counts['Emergent']}',
+                title='Emergent',
+                text=f"{value_counts['Emergent']}",
                 styles={
                     "card": {
                         "width": "400px",
