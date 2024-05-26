@@ -1232,7 +1232,7 @@ if option_tomenu == 'Summary-New':
         with col1:
             understroy = card(
                 title=f'Understroy',
-                text=f'{value_counts['Understory'] + random.randint(40, 60)}',
+                text=f"{value_counts['Understory'] + random.randint(40, 60)}",
                 styles={
                     "card": {
                         "width": "400px",
@@ -1251,7 +1251,7 @@ if option_tomenu == 'Summary-New':
         with col2:
             canopy = card(
                 title=f'Canopy',
-                text=f'{value_counts['Canopy']+ random.randint(40, 60)}',
+                text=f"{value_counts['Canopy']+ random.randint(40, 60)}",
                 styles={
                     "card": {
                         "width": "400px",
@@ -1269,7 +1269,7 @@ if option_tomenu == 'Summary-New':
         with col3:
             emergent = card(
                 title=f'Emergent',
-                text=f'{value_counts['Emergent']+ random.randint(40, 60)}',
+                text=f"{value_counts['Emergent']+ random.randint(40, 60)}",
                 styles={
                     "card": {
                         "width": "400px",
