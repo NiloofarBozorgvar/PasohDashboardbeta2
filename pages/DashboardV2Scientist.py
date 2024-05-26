@@ -778,10 +778,11 @@ if option_tomenu == 'Summary-New':
             value_counts = data[selected_column].value_counts()
             # Display the total counts (though for a single column it's just the same as value_counts)
         col1, col2, col3 = st.columns(3)
+        
         with col1:
             understroy = card(
-                title=f'Understroy',
-                text=f'{value_counts['Understory']}',
+                title='Understroy',
+                text=f"{value_counts['Understory']}",
                 styles={
                     "card": {
                         "width": "400px",
