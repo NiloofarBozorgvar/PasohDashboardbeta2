@@ -449,7 +449,7 @@ def mapshowpredict(df):
 
 # ------------------------------------------------------------ Top Menu
 
-option_tomenu = option_menu(None, ["Home", "Summary", "Trends", 'Simulation', 'Prescription Scenarios', 'Summary-New', 'Simulation-Updated', 'Prescription-Updated','Prescription-Updated-V2','Simulation_V2' ],
+option_tomenu = option_menu(None, ["Home", "Summary", "Trends", 'Simulation', 'Prescription Scenarios', 'Summary-New', 'Simulation-Updated', 'Prescription-Updated','Prescription-Updated-V2','Simulation_updated_V2' ],
     icons=['house', 'cloud-upload', "list-task", 'gear'],
     menu_icon="cast", default_index=0, orientation="horizontal")
 
@@ -29244,7 +29244,7 @@ if option_tomenu == 'Prescription-Updated-V2':
 
         # Display the interactive table
         display_interactive_table()
-if option_tomenu == "Simulation_V2":
+if option_tomenu == "Simulation_updated_V2":
 
     # Streamlit app
     st.title("Harvest Simulation")
