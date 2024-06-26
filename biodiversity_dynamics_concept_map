@@ -1,0 +1,54 @@
+digraph {
+	A [label="Biodiversity Dynamics"]
+	B [label="Species Interactions"]
+	C [label="Environmental Influences"]
+	D [label="Genetic Diversity"]
+	E [label="Ecosystem Functions"]
+	F [label="Field Studies"]
+	G [label="Molecular Techniques"]
+	H [label="Ecological Modeling"]
+	I [label="Remote Sensing and GIS"]
+	J [label="Predictive Models"]
+	K [label="Scenario Analysis"]
+	L [label="Risk Assessment"]
+	M [label="Conservation Planning"]
+	N [label="Forest Simulations"]
+	O [label="Empirical Studies"]
+	P [label="Theoretical Models"]
+	Q [label="Technological Innovations"]
+	R [label="Applications and Implications"]
+	S [label="Conservation Strategies"]
+	T [label="Policy Development"]
+	U [label="Environmental Management"]
+	A -> B
+	A -> C
+	A -> D
+	A -> E
+	B -> F
+	B -> G
+	B -> H
+	B -> I
+	A -> J
+	J -> K
+	J -> L
+	J -> M
+	J -> N
+	A -> O
+	A -> P
+	A -> Q
+	A -> R
+	R -> S
+	R -> T
+	R -> U
+	B -> Competition
+	B -> Predation
+	B -> Symbiosis
+	C -> "Climate Change"
+	C -> "Habitat Destruction"
+	C -> Pollution
+	D -> "Within Species"
+	D -> "Between Species"
+	E -> "Carbon Cycling"
+	E -> "Nutrient Cycling"
+	E -> "Ecosystem Services"
+}
