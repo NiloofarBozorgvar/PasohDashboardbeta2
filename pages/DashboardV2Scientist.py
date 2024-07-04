@@ -14045,9 +14045,9 @@ if option_tomenu == "Simulation-Updated":
                        '9-12 trees per h', '12-16 trees per h',
                        '16-20 trees per h'],
             'Objective': ['Species', 'Volume', 'Economical','Species', 'Volume', 'Economical','Species', 'Volume', 'Economical'],
-            'Dipterocarp Trees to fall': [8, 10, 13, 8, 10, 13, 7, 10, 13],
-            'Non-Dipterocarp Trees to fall': [7, 9, 12, 7, 9, 12, 7, 9, 12],
-            'Chengal Trees to fall': [6, 8, 11, 7, 9, 11, 7, 9, 11],
+            'Dipterocarp Trees to fell': [8, 10, 13, 8, 10, 13, 7, 10, 13],
+            'Non-Dipterocarp Trees to fell': [7, 9, 12, 7, 9, 12, 7, 9, 12],
+            'Chengal Trees to fell': [6, 8, 11, 7, 9, 11, 7, 9, 11],
             'Carbon Loss': [9, 10, 11, 7, 13, 9, 10, 12, 12],
             'Remaining Volume': [434, 1639, 1200, 434, 1639, 1922, 434, 1639, 1922],
             'New AGB': [331, 1250, 1465, 331, 1250, 1465, 331, 1250, 1465],
@@ -14108,9 +14108,9 @@ if option_tomenu == "Simulation-Updated":
             return f"""<tbody><tr style="{row_color}">
                                     <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Regime']}</td>
                                     <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Objective']}</td>
-                                    <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Dipterocarp Trees to fall']}</td>
-                                    <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Non-Dipterocarp Trees to fall']}</td>
-                                    <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Chengal Trees to fall']}</td>
+                                    <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Dipterocarp Trees to fell']}</td>
+                                    <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Non-Dipterocarp Trees to fell']}</td>
+                                    <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Chengal Trees to fell']}</td>
                                     <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Carbon Loss']}</td>
                                     <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Remaining Volume']}</td>
                                     <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['New AGB']}</td>
@@ -14121,9 +14121,9 @@ if option_tomenu == "Simulation-Updated":
         html_code = """<table style="font-size: 20px; text-align: left; border-collapse: collapse; width: 100%;"><thead><tr>
                                     <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Regime</th>
                                     <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Objective</th>
-                                    <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Dipterocarp Trees to fall</th>
-                                    <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Non-Dipterocarp Trees to fall</th>
-                                    <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Chengal Trees to fall</th>
+                                    <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Dipterocarp Trees to fell</th>
+                                    <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Non-Dipterocarp Trees to fell</th>
+                                    <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Chengal Trees to fell</th>
                                     <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Carbon Loss</th>
                                     <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Remaining Volume</th>
                                     <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Remaining Species</th>
@@ -14161,7 +14161,7 @@ if option_tomenu == "Simulation-Updated":
 
         with col1:
             slider_value = st.slider(
-                "Dipterocarp Trees to fall",  # Label for the slider
+                "Dipterocarp Trees to fell",  # Label for the slider
                 min_value=0,  # Minimum value of the slider
                 max_value=regime_map[option_regime],  # Maximum value of the slider
                 value=5,  # Default value of the slider
@@ -14169,7 +14169,7 @@ if option_tomenu == "Simulation-Updated":
             )
         with col2:
             slider_value = st.slider(
-                "Non-Dipterocarp Trees to fall",  # Label for the slider
+                "Non-Dipterocarp Trees to fell",  # Label for the slider
                 min_value=0,  # Minimum value of the slider
                 max_value=regime_map[option_regime],  # Maximum value of the slider
                 value=5,  # Default value of the slider
@@ -14177,7 +14177,7 @@ if option_tomenu == "Simulation-Updated":
             )
         with col3:
             slider_value = st.slider(
-                "Chengal Trees to fall",  # Label for the slider
+                "Chengal Trees to fell",  # Label for the slider
                 min_value=0,  # Minimum value of the slider
                 max_value=regime_map[option_regime],  # Maximum value of the slider
                 value=5,  # Default value of the slider
@@ -21288,9 +21288,9 @@ if option_tomenu == 'Prescription-Updated':
                        '9-12 trees per h', '12-16 trees per h',
                        '16-20 trees per h'],
             'Objective': ['Species', 'Volume', 'Economy', 'Species', 'Volume', 'Economy', 'Species', 'Volume', 'Economy'],
-            'Dipterocarp Trees to fall': [8, 10, 13, 16, 10, 13, 7, 10, 13],
-            'Non-Dipterocarp Trees to fall': [7, 9, 12, 14, 9, 12, 7, 9, 12],
-            'Chengal Trees to fall': [6, 8, 11, 14, 9, 11, 7, 9, 11],
+            'Dipterocarp Trees to fell': [8, 10, 13, 16, 10, 13, 7, 10, 13],
+            'Non-Dipterocarp Trees to fell': [7, 9, 12, 14, 9, 12, 7, 9, 12],
+            'Chengal Trees to fell': [6, 8, 11, 14, 9, 11, 7, 9, 11],
             'Carbon Loss': [9, 10, 11, 7, 13, 9, 10, 12, 12],
             'Remaining Volume': [434, 1639, 1200, 434, 1639, 1922, 434, 1639, 1922],
             'New AGB': [331, 1250, 1465, 331, 1250, 1465, 331, 1250, 1465],
@@ -21312,9 +21312,9 @@ if option_tomenu == 'Prescription-Updated':
             return f"""<tbody><tr style="green">
                                         <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Regime']}</td>
                                         <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Objective']}</td>
-                                        <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Dipterocarp Trees to fall']}</td>
-                                        <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Non-Dipterocarp Trees to fall']}</td>
-                                        <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Chengal Trees to fall']}</td>
+                                        <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Dipterocarp Trees to fell']}</td>
+                                        <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Non-Dipterocarp Trees to fell']}</td>
+                                        <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Chengal Trees to fell']}</td>
                                         <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Carbon Loss']}</td>
                                         <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['Remaining Volume']}</td>
                                         <td style="font-size: 18px; color: #4f483f; padding: 8px; border-bottom: 1px solid #ddd;">{row['New AGB']}</td>
@@ -21325,9 +21325,9 @@ if option_tomenu == 'Prescription-Updated':
         html_code = """<table style="font-size: 20px; text-align: left; border-collapse: collapse; width: 100%;"><thead><tr>
                                         <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Regime</th>
                                         <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Objective</th>
-                                        <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Dipterocarp Trees to fall</th>
-                                        <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Non-Dipterocarp Trees to fall</th>
-                                        <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Chengal Trees to fall</th>
+                                        <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Dipterocarp Trees to fell</th>
+                                        <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Non-Dipterocarp Trees to fell</th>
+                                        <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Chengal Trees to fell</th>
                                         <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Carbon Loss</th>
                                         <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Remaining Volume</th>
                                         <th style="background-color: #6F6456; color: #FFFFFF; font-size: 18px; padding: 8px; border-bottom: 3px solid #ddd; border-left: 3px solid #ddd; border-top: 3px solid #ddd;">Remaining Species</th>
@@ -29118,13 +29118,13 @@ if option_tomenu == 'Prescription-Updated-V2':
                        '16-20 trees per hectare', '9-12 trees per hectare', '12-16 trees per hectare'],
             'Objective': ['Do Nothing', 'Economy', 'Species', 'Volume',
                           'Economy', 'Species', 'Volume'],
-            'Dipterocarp Trees to fall': [0, 13, 16, 10, 12, 13, 16],
-            'Non-Dipterocarp Trees to fall': [0, 12, 14, 9, 15, 12, 14],
-            'Chengal Trees to fall': [0, 11, 14, 8, 16, 11, 14],
+            'Dipterocarp Trees to fell': [0, 13, 16, 10, 12, 13, 16],
+            'Non-Dipterocarp Trees to fell': [0, 12, 14, 9, 15, 12, 14],
+            'Chengal Trees to fell': [0, 11, 14, 8, 16, 11, 14],
             'Carbon Loss': [12.52, 9.3, 6.1, 10, 11.32, 9, 6],
-            'Remaining Volume': [1006, 1834, 1434, 1639, 1261, 1922, 934],
+            'Remaining Volume': [934, 1834, 1434, 1639, 1261, 1922, 1006],
             'New AGB': [1431, 1165, 1142, 1250, 1168, 1165, 1002],
-            'Remaining Species': [331, 368, 371, 370, 364, 369, 367],
+            'Remaining Species': [281, 368, 371, 370, 364, 369, 367],
         }
 
         # Convert data to DataFrame
@@ -29440,7 +29440,7 @@ if option_tomenu == "Simulation_updated_V2":
 
     # ------------------------------------------------------------------
         st.markdown("<div style='height: 50px;'></div>", unsafe_allow_html=True)
-        st.subheader(' 👇 Please select your desire ranking scale to see the Recommended Harvesting Action Plan')
+        st.subheader(' 👇 Please select your scale to sort by and see the Recommended Harvesting Action Plan')
 
         column_mapping = {
             "to save Species": "Species",
@@ -29460,13 +29460,13 @@ if option_tomenu == "Simulation_updated_V2":
                        '16-20 trees per hectare', '9-12 trees per hectare', '12-16 trees per hectare'],
             'Objective': ['Do Nothing', 'Economy', 'Species', 'Volume',
                           'Economy', 'Species', 'Volume'],
-            'Dipterocarp Trees to fall': [0, 13, 16, 10, 12, 13, 16],
-            'Non-Dipterocarp Trees to fall': [0, 12, 14, 9, 15, 12, 14],
-            'Chengal Trees to fall': [0, 11, 14, 8, 16, 11, 14],
+            'Dipterocarp Trees to fell': [0, 13, 16, 10, 12, 13, 16],
+            'Non-Dipterocarp Trees to fell': [0, 12, 14, 9, 15, 12, 14],
+            'Chengal Trees to fell': [0, 11, 14, 8, 16, 11, 14],
             'Carbon Loss': [12.52, 9.3, 6.1, 10, 11.32, 9, 6],
-            'Remaining Volume': [1006, 1834, 1434, 1639, 1261, 1922, 934],
-            'New AGB': [1431, 1165, 1142, 1250, 1168, 1165, 1002],
-            'Remaining Species': [331, 368, 371, 370, 364, 369, 367],
+            'Remaining Volume': [934, 1834, 1434, 1639, 1261, 1922, 1006],
+            'New AGB': [1002, 1165, 1142, 1250, 1168, 1165, 1431],
+            'Remaining Species': [281, 368, 371, 370, 364, 369, 367],
         }
 
         # Convert data to DataFrame
@@ -29569,12 +29569,12 @@ if option_tomenu == "Simulation_updated_V2":
         # Define layout for selection options
         col1, col2, col3 = st.columns(3)
         with col1:
-            selected_column = st.selectbox("to be Ranked by",
+            selected_column = st.selectbox("to be sorted by",
                                            ["Remaining Species", "New AGB", "Carbon Loss", "Remaining Volume"])
 
         with col2:
             optionyear = st.selectbox(
-                'Select Year to be prescriptive',
+                'prescription for year:',
                 (['2021'])
             )
 
@@ -29623,7 +29623,7 @@ if option_tomenu == "Simulation_updated_V2":
 
         with col1:
             slider_value = st.slider(
-                "Dipterocarp Trees to fall",  # Label for the slider
+                "Dipterocarp Trees to fell",  # Label for the slider
                 min_value=0,  # Minimum value of the slider
                 max_value=regime_map[option_regime],  # Maximum value of the slider
                 value=5,  # Default value of the slider
@@ -29631,7 +29631,7 @@ if option_tomenu == "Simulation_updated_V2":
             )
         with col2:
             slider_value = st.slider(
-                "Non-Dipterocarp Trees to fall",  # Label for the slider
+                "Non-Dipterocarp Trees to fell",  # Label for the slider
                 min_value=0,  # Minimum value of the slider
                 max_value=regime_map[option_regime],  # Maximum value of the slider
                 value=5,  # Default value of the slider
@@ -29639,7 +29639,7 @@ if option_tomenu == "Simulation_updated_V2":
             )
         with col3:
             slider_value = st.slider(
-                "Chengal Trees to fall",  # Label for the slider
+                "Chengal Trees to fell",  # Label for the slider
                 min_value=0,  # Minimum value of the slider
                 max_value=regime_map[option_regime],  # Maximum value of the slider
                 value=5,  # Default value of the slider
